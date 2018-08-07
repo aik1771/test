@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 3, Errors: 0, Skipped: 8, Time elapsed: 9.813 sec <<< FAILURE! - in TestSuite
+selectSize(automaion.test.CanUserSelectPackVariation)  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at automaion.test.CanUserSelectPackVariation.selectSize(CanUserSelectPackVariation.java:19)
+
+getResult(automaion.test.CanUserSelectPackVariation)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.NullPointerException
+
+failTest(automaion.test.CanUserSelectSizeFromDropDown)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+

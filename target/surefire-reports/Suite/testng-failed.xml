@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="Test1(failed)">
+    <classes>
+      <class name="automaion.test.CanUserSelectSizeFromDropDown">
+        <methods>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+          <include name="endReport"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- automaion.test.CanUserSelectSizeFromDropDown -->
+      <class name="automaion.test.CanUserSelectPackVariation">
+        <methods>
+          <include name="getResult"/>
+          <include name="skipTest"/>
+          <include name="failTest"/>
+          <include name="selectSize"/>
+          <include name="passTest"/>
+        </methods>
+      </class> <!-- automaion.test.CanUserSelectPackVariation -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test name="Test2(failed)">
+    <classes>
+      <class name="automaion.test.CanUserSelectSizeFromDropDown">
+        <methods>
+          <include name="getResult"/>
+          <include name="skipTest"/>
+          <include name="tearDown"/>
+          <include name="failTest"/>
+          <include name="endReport"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- automaion.test.CanUserSelectSizeFromDropDown -->
+      <class name="automaion.test.CanUserSelectPackVariation">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- automaion.test.CanUserSelectPackVariation -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
